@@ -5,6 +5,12 @@
   color: #555;
 }
 
+html,
+body {
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-size: 14px;
+}
+
 ul {
   list-style-type: none;
 }
