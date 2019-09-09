@@ -29,8 +29,12 @@ nav ul li {
 
 nav ul li a {
   font-size: 0.8rem;
-  color: #fff;
+  color: hsla(0,0%,100%,.6);
   padding: 0.5rem 0.5rem;
+}
+
+nav ul li a:hover {
+  color: #fff;
 }
 
 nav ul .right-links {
@@ -41,7 +45,7 @@ nav ul .right-links {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 70px;
+  height: 50px;
   padding: 0 2%;
 }
 
@@ -49,13 +53,26 @@ nav ul .right-links {
   padding: 0 0.6rem;
   text-transform: uppercase;
   font-size: 0.9rem;
-  color: #555;
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  color:#aaa;
+  letter-spacing: .04em;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.message p:hover {
+  color: #000;
 }
 
 .search img {
-  height: 15px;
+  height: 17px;
   max-width: 100%;
   color: #555;
+}
+
+.search img:hover {
+  color: gray;
 }
 
 .search {
@@ -63,7 +80,7 @@ nav ul .right-links {
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
-  padding: 0.5rem;
+  padding: 1rem;
   border-left: 1px solid #c6c6c6;
 }
 
