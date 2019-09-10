@@ -222,3 +222,28 @@ nav ul .right-links {
   
 }
 
+.latest {
+  margin: 50px auto;
+  display: flex;
+  padding: 0 6%;
+  justify-content: space-between;
+}
+
+.left-title h2 a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.right-title p a {
+  color: red;
+  padding: 0 1rem;
+}
+
+.right-title {
+  display: flex;
+}
+
+
+
+.
+
