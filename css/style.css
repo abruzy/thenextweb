@@ -242,8 +242,31 @@ nav ul .right-links {
 .right-title {
   display: flex;
 }
+.box{
+  background-color: #fffaf8;
+  width: 25%;
+  height: auto;
+}
+.boxes{
+  width: 100%;
+  display: flex;
+}
+.box p a{
+  color: black;
+  padding: 5px;
+}
+.box hr{
+  background-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+
+}
+.box p span{
+  font-size: 12px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
 
 
-
-.
 
