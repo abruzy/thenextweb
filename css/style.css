@@ -7,6 +7,7 @@
 html,
 body {
   color: #555;
+  font-family: ARS Maquette,Helvetica
 }
 
 ul {
@@ -555,6 +556,69 @@ h2.header-title {
 .pages {
   box-sizing: border-box;
   flex-basis: 33.3%;
+}
+
+.deals-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 170px;
+}
+
+.deals-header h2 {
+  line-height: 32px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #f42;
+}
+
+.see-all {
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.img-thumbnail {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1;
+  grid-gap: 2px;
+  margin: 30px 100px;
+}
+
+.img-thumbnail img {
+  max-width: 100%;
+  width: 300x;
+  height: 200px;
+}
+
+.img-thumbnail h4 {
+  color: #000;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.img-thumbnail h4:hover {
+  color: #f42;
+  transition: ease-in-out .2s;
+}
+
+.story-dealPrice {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  vertical-align: baseline;
+  margin-bottom: 30px;
+}
+
+.story-dealPrice-new {
+  font-size: 13px;
+  margin-right: 4px;
+}
+
+.story-dealPrice-old {
+  text-decoration: line-through;
+  font-size: 13px;
 }
 
 footer{
