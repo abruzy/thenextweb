@@ -571,6 +571,10 @@ h2.header-title {
   color: #f42;
 }
 
+.deals-header h2:hover {
+  color: #000;
+}
+
 .see-all {
   font-size: 10px;
   line-height: 18px;
