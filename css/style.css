@@ -16,7 +16,7 @@ img {
 
 
 header .item1 {
-    background: url('../images/TNWicon.jpg') 0 50% no-repeat;
+    background: url('../assests/images/TNWicon.jpg') 0 50% no-repeat;
     background-size: cover;
 }
 
@@ -26,7 +26,7 @@ header .item3 {
 }
 
 header .item4 {
-    background: url('../images/menu-icon.png') 50% 50% no-repeat;
+    background: url('../assests/images/menu-icon.png') 50% 50% no-repeat;
     background-size: 40% 40%;
 }
 
