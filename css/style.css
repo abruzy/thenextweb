@@ -344,7 +344,7 @@ h1 {
 }
 
 .latest {
-    background: url('../images/background2.png') 100% 0 no-repeat, rgb(255,244,242);
+    background: url('../assests/images/background.png') 100% 0 no-repeat, rgb(255,244,242);
     background-size: 100px 100%;
     padding: 1em;
     padding-bottom: 2em;
