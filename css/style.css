@@ -21,7 +21,7 @@ header .item1 {
 }
 
 header .item3 {
-    background: url('../images/search-icon.png') 50% 50% no-repeat;
+    background: url('../assests/images/search-icon.png') 50% 50% no-repeat;
     background-size: 50% 50%;
 }
 
@@ -957,6 +957,6 @@ footer .bottom {
 
     /* footer */
 
-    
+
 } 
 
