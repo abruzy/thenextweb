@@ -1,0 +1,897 @@
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+header .item1 {
+  background: url('../assests/images/TNWicon.jpg') 0 50% no-repeat;
+  background-size: cover;
+  grid-gap: 1em;
+}
+
+header .item3 {
+  background: url('../assests/images/search-icon.png') 50% 50% no-repeat;
+  background-size: 50% 50%;
+}
+
+header .item4 {
+  background-size: 40% 40%;
+  display: grid;
+  align-items: center;
+  padding-left: 0.7em;
+  border-right: 1px solid rgba(187, 186, 186, 0.5);
+}
+
+header {
+  min-height: 50px;
+  top: 0;
+  position: fixed;
+  background: #fbf8f8;
+  z-index: 15;
+  width: 100%;
+}
+
+header .item2 {
+  background: black;
+  display: grid;
+  align-items: center;
+  justify-content: left;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+header .nav1 {
+  font-family: sans-serif;
+  padding: 0.3em 1em;
+  font-size: 1.1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.style a {
+  text-decoration: none;
+}
+
+.most-popular a {
+  color: white;
+}
+
+.Latest-deals a {
+  text-decoration: none;
+}
+
+header .nav1 a {
+  text-decoration: none;
+  padding: 0.3em;
+  color: rgb(189, 188, 188);
+}
+
+header .nav2 a {
+  text-decoration: none;
+  color: rgb(141, 141, 141);
+  font-family: sans-serif;
+  padding: 0.3em;
+  font-size: 0.85em;
+}
+
+header .item1 a,
+header .item3 a {
+  display: block;
+  height: 100%;
+}
+
+.Latest-News h2 a {
+  text-decoration: none;
+  color: rgba(255, 51, 0, 0.966);
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+.Latest-funding h2 a {
+  text-decoration: none;
+  color: rgba(255, 51, 0, 0.966);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.Latest-funding article a {
+  display: grid;
+  grid-template-columns: 1fr 3fr 40px auto;
+  background: linear-gradient(rgb(255, 68, 34) 40px, rgb(255, 235, 231) 0);
+  text-decoration: none;
+}
+
+.style h2 a {
+  text-decoration: none;
+  color: rgba(255, 51, 0, 0.966);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.style h3 a {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.style h5 a {
+  font-size: 0.9em;
+}
+
+.latest h5 a {
+  color: rgb(253, 40, 40);
+  font-weight: bold;
+}
+
+.style li a {
+  color: rgb(93, 93, 93);
+  font-size: 0.85em;
+}
+
+.Latest-deals h2 a {
+  text-decoration: none;
+  color: rgba(255, 51, 0, 0.966);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.Latest-deals article a {
+  display: block;
+}
+
+.Latest-funding h2 {
+  grid-column: 1/3;
+}
+
+.Top-Section article h2 a {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.Latest-News article h5 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.Latest-funding .display1 a,
+.Latest-funding .display2 a {
+  color: rgba(255, 51, 0, 0.966);
+  text-decoration: none;
+}
+
+header .nav1 a:hover {
+  color: white;
+}
+
+[href="menu"] {
+  display: none;
+}
+
+header .nav2 a:hover {
+  color: black;
+}
+
+.Top-Section {
+  background: linear-gradient(rgba(184, 184, 184, 0.685), rgba(241, 240, 240, 0.685), white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white);
+}
+
+.Top-Section article {
+  display: grid;
+  align-content: flex-end;
+  grid-gap: 10px;
+  padding: 1em 1.5em 1em 1em;
+  color: white;
+}
+
+.Top-Section article h5 {
+  font-size: 0.9em;
+}
+
+.Latest-deals p {
+  color: rgb(85, 85, 85);
+}
+
+.Top-Section article p {
+  color: rgb(151, 151, 151);
+  font-size: 0.9em;
+}
+
+.Top-Section .article1 {
+  background: linear-gradient(to bottom right, red, rgba(255, 0, 0, 0.726), black, black, rgb(1, 1, 105));
+}
+
+.Top-Section .article2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.863), rgb(165, 91, 42), rgba(0, 0, 0, 0.863));
+}
+
+.Top-Section .article3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.863), rgb(1, 1, 105), rgba(0, 0, 0, 0.863));
+}
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20vh;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+.Latest-News {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.Latest-News h2 {
+  grid-column: 1/-1;
+}
+
+.Latest-News article {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.Latest-News h2 a:hover {
+  color: black;
+}
+
+.Latest-funding h2 a:hover {
+  color: black;
+}
+
+.Latest-funding article .item a {
+  padding-bottom: 8px;
+  text-decoration: none;
+  background: none;
+  display: inline;
+  color: rgb(70, 70, 70);
+}
+
+.style h2 a:hover {
+  color: black;
+}
+
+.style li a:hover {
+  color: black;
+}
+
+.Latest-deals h2 a:hover {
+  color: black;
+}
+
+.Latest-News article h5 a:hover {
+  text-decoration: underline rgb(251, 73, 73);
+  color: rgb(251, 73, 73);
+}
+
+.Latest-News article p {
+  color: rgb(143, 143, 143);
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.Latest-funding {
+  display: grid;
+  grid-gap: 25px;
+  padding: 2em 1em;
+}
+
+.Latest-funding .display1,
+.Latest-funding .display2 {
+  padding-top: 8px;
+}
+
+.Latest-funding .display1 a:hover,
+.Latest-funding .display2 a:hover {
+  color: black;
+}
+
+.Latest-funding article {
+  background: rgb(255, 248, 246);
+}
+
+.Latest-funding article .p {
+  font-size: 0.9em;
+  padding: 20px;
+  color: rgb(70, 70, 70);
+  border-bottom: 1px solid rgba(252, 47, 47, 0.479);
+}
+
+.Latest-funding article .item {
+  font-size: 0.75em;
+  display: grid;
+  padding: 12px 20px;
+}
+
+[alt="futurus"] {
+  width: 60px;
+  grid-row: 1/4;
+  grid-column: 1;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.Latest-funding article a h5 {
+  grid-row: 1;
+  grid-column: 2;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.Latest-funding article a p:first-of-type {
+  grid-row: 2;
+  grid-column: 2;
+  padding: 10px;
+  padding-top: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.Latest-funding article a p:last-of-type {
+  grid-row: 3;
+  grid-column: 2;
+  padding-left: 10px;
+  color: rgb(143, 143, 143);
+  font-size: 0.9em;
+  padding-bottom: 20px;
+  margin-top: -5px;
+}
+
+.style {
+  margin: 2em 1em;
+}
+
+.style h2 {
+  padding: 1em 0;
+}
+
+.style h4 {
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+[href="#"] {
+  font-size: 0.8em;
+}
+
+.most-popular {
+  height: 250px;
+  display: grid;
+  align-content: flex-end;
+  grid-gap: 0.5em;
+  padding: 0.7em;
+  background: url('../assests/images/Untitled-design108-368x276.png') -50px 0 no-repeat;
+  background-size: cover;
+  filter: brightness(0.8);
+  color: white;
+}
+
+.latest {
+  background: url('../assests/images/background.png') 100% 0 no-repeat, rgb(255, 244, 242);
+  background-size: 100px 100%;
+  padding: 1em;
+  padding-bottom: 2em;
+  margin-top: 2px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.latest h4 {
+  color: rgb(253, 40, 40);
+  padding-bottom: 0.5em;
+  grid-column: 1/-1;
+}
+
+.style li {
+  list-style: disc;
+  margin-left: 1em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid rgba(116, 116, 116, 0.561);
+}
+
+.style ul {
+  padding: 1em 0;
+}
+
+main {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.Latest-deals {
+  padding: 1em;
+  margin-bottom: 1em;
+  grid-gap: 1.5em;
+}
+
+.Latest-deals h2 {
+  padding: 1em 0;
+}
+
+.see-all-deals {
+  color: rgba(255, 51, 0, 0.966);
+  margin-top: 1em;
+  text-align: right;
+}
+
+.see-all-deals:hover {
+  color: black;
+}
+
+[href="Complete"] {
+  color: rgb(39, 39, 39);
+  font-weight: bold;
+}
+
+[href="Complete"]:hover {
+  color: red;
+  text-decoration: underline red;
+}
+
+.Latest-deals article {
+  display: grid;
+  grid-gap: 0.5em;
+}
+
+footer {
+  background: rgb(41, 41, 41);
+  color: white;
+}
+
+.item1 div {
+  width: 20px;
+  border-radius: 50%;
+  padding: 0.5em;
+  background: rgb(75, 74, 74);
+}
+
+footer nav {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em 0;
+  grid-gap: 1.5em;
+  display: grid;
+}
+
+footer .bottom {
+  font-size: 0.9em;
+  padding: 3em 0;
+  background: black;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    display: grid;
+    grid-template-columns: 100px 1fr 55px 55px;
+  }
+
+  header .item2 {
+    background: white;
+  }
+
+  header .item3,
+  header .item2 {
+    border-right: 1px solid rgba(187, 186, 186, 0.5);
+  }
+
+  header .nav1 {
+    display: none;
+  }
+
+  header .nav2 {
+    display: none;
+  }
+
+  [href="menu"] {
+    display: block;
+    height: 100%;
+  }
+
+  .Top-Section {
+    height: 666px;
+    display: grid;
+    padding: 30px 10px;
+    grid-gap: 10px;
+  }
+
+  .Top-Section .article1 h1,
+  .Top-Section .article1 .date {
+    display: none;
+  }
+
+  .Latest-News {
+    grid-template-columns: 1fr;
+  }
+
+  .Latest-News article {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .Latest-News article img {
+    width: 100px;
+  }
+
+  .Latest-News article a {
+    width: 100px;
+    grid-row: 1/-1;
+  }
+
+  .Latest-News article h5 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 0.9em;
+  }
+
+  .Latest-News article p {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 0.75em;
+  }
+
+  .Latest-funding .display1 {
+    display: block;
+  }
+
+  .Latest-funding .display1 a {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .Latest-funding .hide2 {
+    display: none;
+  }
+
+  .Latest-deals article {
+    grid-column: 1/-1 !important;
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) 4fr;
+    grid-template-rows: 50px 50px;
+  }
+
+  .Latest-funding article:last-of-type {
+    display: none;
+  }
+
+  .Latest-funding article .item a {
+    display: inline;
+  }
+
+  .Latest-funding article .item {
+    display: block;
+    line-height: 1.5;
+  }
+
+  .style .most-popular {
+    background-size: 100% 100%;
+    background-position: 0 0;
+    height: 300px;
+  }
+
+  .Latest-deals {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 0.5em;
+  }
+
+  .Latest-deals > *:not(.see-all-deals) {
+    grid-column: 1;
+  }
+
+  .see-all-deals {
+    grid-column: 2;
+  }
+
+  [href="main-hero"] {
+    grid-column: 1;
+    grid-row: 1/ span 2;
+  }
+
+  [href="Complete"] {
+    grid-column: 2/-1;
+    grid-row: 1;
+  }
+
+  .Latest-deals article p {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: flex-start;
+  }
+
+  footer nav .item2 div:last-of-type {
+    display: none;
+  }
+
+  footer nav .item1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    padding: 0 10%;
+  }
+
+  footer nav .item2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  footer .bottom {
+    text-align: center;
+    display: grid;
+    grid-gap: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  header {
+    display: grid;
+    grid-template-columns: 100px 1fr 55px;
+    grid-template-rows: auto auto auto auto;
+    min-height: 80px;
+  }
+
+  header .item1 {
+    grid-row: 1/-1;
+    grid-column: 1;
+  }
+
+  header .item2 {
+    grid-row: 1;
+    grid-column: 2/4;
+  }
+
+  header .item3 {
+    grid-row: 2/-1;
+    grid-column: 3;
+  }
+
+  header .item4 {
+    grid-row: 2/-1;
+    grid-column: 2;
+  }
+
+  .Top-Section {
+    display: grid;
+    grid-template-columns: 2fr 1fr auto auto;
+    height: 430px;
+    padding: 30px 10px;
+    grid-gap: 10px;
+  }
+
+  .Top-Section .article1 {
+    grid-row: 1/3;
+    grid-column: 1;
+  }
+
+  .Top-Section article h2 {
+    font-size: 1.5em;
+  }
+
+  .Top-Section .article1 h2 {
+    font-size: 1.8em;
+  }
+
+  .Top-Section .article2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .Top-Section .article3 {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .Top-Section .article1 h1,
+  .Top-Section .article1 .date {
+    display: none;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Latest-News,
+  .Latest-funding,
+  .Latest-deals {
+    grid-column: 1/-1;
+  }
+
+  .Apps,
+  .Tech,
+  .Contributors,
+  .Launch {
+    grid-column: 2;
+  }
+
+  .Latest-funding .hide1 {
+    display: none;
+  }
+
+  .Latest-funding .display2 {
+    display: block;
+  }
+
+  .Latest-funding .article4 {
+    display: none;
+  }
+
+  .Latest-funding {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .Latest-funding .article1 {
+    grid-column: 1;
+  }
+
+  .Latest-funding .article2 {
+    grid-column: 2;
+  }
+
+  .Latest-funding .article3 {
+    grid-column: 3;
+  }
+
+  .Latest-deals {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  footer nav .item1 {
+    max-width: 420px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 auto;
+  }
+
+  footer nav .item2 {
+    max-width: 380px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+  }
+
+  footer .bottom p {
+    display: inline;
+  }
+
+  footer .bottom {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr 55px;
+    grid-template-rows: auto auto auto auto;
+    min-height: 80px;
+  }
+
+  header .item1 {
+    display: none;
+  }
+
+  header .item2 {
+    grid-row: 1;
+    grid-column: 2/4;
+  }
+
+  header .item3 {
+    grid-row: 2/-1;
+    grid-column: 3;
+  }
+
+  header .item4 {
+    grid-row: 2/-1;
+    grid-column: 2;
+  }
+
+  .Top-Section {
+    height: 530px;
+  }
+
+  .Top-Section .article1 h1,
+  .Top-Section .article1 .date {
+    display: block;
+  }
+
+  .Top-Section .article1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: stretch;
+    grid-template-rows: repeat(7, auto);
+  }
+
+  .Top-Section .article1 .date {
+    grid-column: 2;
+    text-align: right;
+    padding-top: 1em;
+    font-size: 0.9em;
+  }
+
+  .Latest-funding .display2,
+  .Latest-funding h2 {
+    grid-column: 1/-1;
+  }
+
+  .Latest-deals h2 {
+    grid-column: 1/-2;
+  }
+
+  .Top-Section .article1 h2 {
+    font-size: 2.4em;
+    grid-column: 1/-1;
+    grid-row: 6;
+  }
+
+  .Top-Section .article1 p {
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  .Top-Section .article1 h5 {
+    grid-row: 5;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .Latest-News,
+  .Latest-funding,
+  .Latest-deals {
+    grid-column: 1/-1;
+  }
+
+  .Hard-Fork,
+  .Tech,
+  .Insights {
+    grid-column: 1;
+  }
+
+  .Apps,
+  .Creative,
+  .Launch {
+    grid-column: 2;
+  }
+
+  .Gear,
+  .Contributors,
+  .Distract {
+    grid-column: 3;
+  }
+
+  .Latest-funding .article4 {
+    display: block;
+  }
+
+  .Latest-funding {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .Latest-funding .display2 {
+    grid-column: 3/-1;
+    text-align: right;
+  }
+}
