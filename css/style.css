@@ -31,6 +31,11 @@ header .item4 {
 
 header {
   min-height: 50px;
+  top: 0;
+  position: fixed;
+  background: #fbf8f8;
+  z-index: 15;
+  width: 100%;
 }
 
 header .item2 {
@@ -90,7 +95,6 @@ header .item3 a {
   color: rgba(255, 51, 0, 0.966);
   font-weight: bold;
   font-size: 1.6em;
- 
 }
 
 .Latest-funding h2 a {
@@ -705,7 +709,6 @@ footer .bottom {
     grid-template-columns: 1fr 1fr;
   }
 
-
   .Latest-News,
   .Latest-funding,
   .Latest-deals {
@@ -891,11 +894,4 @@ footer .bottom {
     grid-column: 3/-1;
     text-align: right;
   }
-}
-header {
-  top: 0;
-  position: fixed;
-  background: #fbf8f8;
-  z-index: 15;
-  width: 100%;
 }
