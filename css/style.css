@@ -88,8 +88,9 @@ header .item3 a {
 .Latest-News h2 a {
   text-decoration: none;
   color: rgba(255, 51, 0, 0.966);
-  font-size: 1.6em;
   font-weight: bold;
+  font-size: 1.6em;
+ 
 }
 
 .Latest-funding h2 a {
@@ -704,6 +705,7 @@ footer .bottom {
     grid-template-columns: 1fr 1fr;
   }
 
+
   .Latest-News,
   .Latest-funding,
   .Latest-deals {
@@ -889,4 +891,11 @@ footer .bottom {
     grid-column: 3/-1;
     text-align: right;
   }
+}
+header {
+  top: 0;
+  position: fixed;
+  background: #fbf8f8;
+  z-index: 15;
+  width: 100%;
 }
