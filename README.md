@@ -10,5 +10,5 @@ https://rawcdn.githack.com/abruzy/thenextweb/103a0357974b282525dbe2eff0ae9b3f8e6
 
 ## Authors
 
--[Abubakar Diallo](https://github.com/abruzy)
+- [Abubakar Diallo](https://github.com/abruzy)
 - [Saba Younis](https://github.com/sabayounis)
