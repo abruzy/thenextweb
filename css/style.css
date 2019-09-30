@@ -25,6 +25,9 @@ header .item3 {
 header .item4 {
   background: url('../assests/images/menu-icon.png') 50% 50% no-repeat;
   background-size: 40% 40%;
+  display: grid;
+  align-items: center;
+  padding-left: 0.7em;
 }
 
 header {
@@ -33,9 +36,6 @@ header {
 
 header .item2 {
   background: black;
-}
-
-header .item2 {
   display: grid;
   align-items: center;
   justify-content: left;
@@ -53,20 +53,6 @@ header .nav1 a {
   color: rgb(189, 188, 188);
 }
 
-header .nav1 a:hover {
-  color: white;
-}
-
-header .item4 {
-  display: grid;
-  align-items: center;
-  padding-left: 0.7em;
-}
-
-[href="menu"] {
-  display: none;
-}
-
 header .nav2 a {
   text-decoration: none;
   color: rgb(141, 141, 141);
@@ -75,14 +61,49 @@ header .nav2 a {
   font-size: 0.85em;
 }
 
-header .nav2 a:hover {
-  color: black;
-}
-
 header .item1 a,
 header .item3 a {
   display: block;
   height: 100%;
+}
+
+.Latest-News h2 a {
+  text-decoration: none;
+  color: rgba(255, 51, 0, 0.966);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.Latest-funding h2 a {
+  text-decoration: none;
+  color: rgba(255, 51, 0, 0.966);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.Top-Section article h2 a {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.Latest-News article h5 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+header .nav1 a:hover {
+  color: white;
+}
+
+[href="menu"] {
+  display: none;
+}
+
+header .nav2 a:hover {
+  color: black;
 }
 
 /* Top-Section */
@@ -95,13 +116,6 @@ header .item3 a {
   align-content: flex-end;
   grid-gap: 10px;
   padding: 1em 1.5em 1em 1em;
-  color: white;
-}
-
-.Top-Section article h2 a {
-  font-size: 1.2em;
-  font-weight: bold;
-  text-decoration: none;
   color: white;
 }
 
@@ -152,10 +166,8 @@ h1 {
   grid-gap: 10px;
 }
 
-.Latest-News article h5 a {
-  text-decoration: none;
+.Latest-News h2 a:hover {
   color: black;
-  font-weight: bold;
 }
 
 .Latest-News article h5 a:hover {
@@ -169,29 +181,10 @@ h1 {
   font-weight: bold;
 }
 
-.Latest-News h2 a {
-  text-decoration: none;
-  color: rgba(255, 51, 0, 0.966);
-  font-size: 1.6em;
-  font-weight: bold;
-}
-
-.Latest-News h2 a:hover {
-  color: black;
-}
-
 .Latest-funding {
   display: grid;
   grid-gap: 25px;
-  padding-top: 2.5em;
   padding: 2em 1em;
-}
-
-.Latest-funding h2 a {
-  text-decoration: none;
-  color: rgba(255, 51, 0, 0.966);
-  font-size: 1.6em;
-  font-weight: bold;
 }
 
 .Latest-funding h2 a:hover {
@@ -700,11 +693,13 @@ footer .bottom {
   header .item4 {
     border-right: 1px solid rgba(187, 186, 186, 0.5);
   }
+
   header {
     position: sticky;
     top: 0;
     background: white;
-}
+  }
+
   /* Top-Section */
   .Top-Section {
     display: grid;
