@@ -22,7 +22,6 @@ header .item3 {
 }
 
 header .item4 {
-  background: url('../assests/images/menu-icon.png') 50% 50% no-repeat;
   background-size: 40% 40%;
   display: grid;
   align-items: center;
@@ -362,7 +361,7 @@ h1 {
   font-weight: bold;
 }
 
-[href="David"] {
+[href="#"] {
   font-size: 0.8em;
 }
 
@@ -612,7 +611,6 @@ footer .bottom {
     align-self: flex-start;
   }
 
-  /* footer */
   footer nav .item2 div:last-of-type {
     display: none;
   }
