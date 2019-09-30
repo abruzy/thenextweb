@@ -15,6 +15,7 @@ img {
 header .item1 {
   background: url('../assests/images/TNWicon.jpg') 0 50% no-repeat;
   background-size: cover;
+  grid-gap: 1em;
 }
 
 header .item3 {
@@ -39,12 +40,26 @@ header .item2 {
   display: grid;
   align-items: center;
   justify-content: left;
+  font-size: 0.75em;
+  text-align: center;
 }
 
 header .nav1 {
   font-family: sans-serif;
   padding: 0.3em 1em;
   font-size: 1.1em;
+}
+
+.style a {
+  text-decoration: none;
+}
+
+.most-popular a {
+  color: white;
+}
+
+.Latest-deals a {
+  text-decoration: none;
 }
 
 header .nav1 a {
@@ -81,6 +96,46 @@ header .item3 a {
   font-weight: bold;
 }
 
+.Latest-funding article a {
+  display: grid;
+  grid-template-columns: 1fr 3fr 40px auto;
+  background: linear-gradient(rgb(255, 68, 34) 40px, rgb(255, 235, 231) 0);
+  text-decoration: none;
+}
+
+.style h2 a {
+  text-decoration: none;
+  color: rgba(255, 51, 0, 0.966);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.style h3 a {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.style h5 a {
+  font-size: 0.9em;
+}
+
+.latest h5 a {
+  color: rgb(253, 40, 40);
+  font-weight: bold;
+}
+
+.style li a {
+  color: rgb(93, 93, 93);
+  font-size: 0.85em;
+}
+
+.Latest-deals h2 a {
+  text-decoration: none;
+  color: rgba(255, 51, 0, 0.966);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
 .Top-Section article h2 a {
   font-size: 1.2em;
   font-weight: bold;
@@ -92,6 +147,12 @@ header .item3 a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+.Latest-funding .display1 a,
+.Latest-funding .display2 a {
+  color: rgba(255, 51, 0, 0.966);
+  text-decoration: none;
 }
 
 header .nav1 a:hover {
@@ -121,6 +182,10 @@ header .nav2 a:hover {
 
 .Top-Section article h5 {
   font-size: 0.9em;
+}
+
+.Latest-deals p {
+  color: rgb(85, 85, 85);
 }
 
 .Top-Section article p {
@@ -170,6 +235,30 @@ h1 {
   color: black;
 }
 
+.Latest-funding h2 a:hover {
+  color: black;
+}
+
+.Latest-funding article .item a {
+  padding-bottom: 8px;
+  text-decoration: none;
+  background: none;
+  display: inline;
+  color: rgb(70, 70, 70);
+}
+
+.style h2 a:hover {
+  color: black;
+}
+
+.style li a:hover {
+  color: black;
+}
+
+.Latest-deals h2 a:hover {
+  color: black;
+}
+
 .Latest-News article h5 a:hover {
   text-decoration: underline rgb(251, 73, 73);
   color: rgb(251, 73, 73);
@@ -187,19 +276,9 @@ h1 {
   padding: 2em 1em;
 }
 
-.Latest-funding h2 a:hover {
-  color: black;
-}
-
 .Latest-funding .display1,
 .Latest-funding .display2 {
   padding-top: 8px;
-}
-
-.Latest-funding .display1 a,
-.Latest-funding .display2 a {
-  color: rgba(255, 51, 0, 0.966);
-  text-decoration: none;
 }
 
 .Latest-funding .display1 a:hover,
@@ -209,14 +288,6 @@ h1 {
 
 .Latest-funding article {
   background: rgb(255, 248, 246);
-}
-
-.Latest-funding article a {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template: 40px auto;
-  background: linear-gradient(rgb(255, 68, 34) 40px, rgb(255, 235, 231) 0);
-  text-decoration: none;
 }
 
 .Latest-funding article .p {
@@ -230,14 +301,6 @@ h1 {
   font-size: 0.75em;
   display: grid;
   padding: 12px 20px;
-}
-
-.Latest-funding article .item a {
-  padding-bottom: 8px;
-  text-decoration: none;
-  background: none;
-  display: inline;
-  color: rgb(70, 70, 70);
 }
 
 [alt="futurus"] {
@@ -280,37 +343,13 @@ h1 {
   margin: 2em 1em;
 }
 
-.style h2 a {
-  text-decoration: none;
-  color: rgba(255, 51, 0, 0.966);
-  font-size: 1.6em;
-  font-weight: bold;
-}
-
 .style h2 {
   padding: 1em 0;
-}
-
-.style a {
-  text-decoration: none;
-}
-
-.style h2 a:hover {
-  color: black;
 }
 
 .style h4 {
   font-size: 0.75em;
   font-weight: bold;
-}
-
-.style h3 a {
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-.style h5 a {
-  font-size: 0.9em;
 }
 
 [href="David"] {
@@ -326,10 +365,6 @@ h1 {
   background: url('../assests/images/Untitled-design108-368x276.png') -50px 0 no-repeat;
   background-size: cover;
   filter: brightness(0.8);
-  color: white;
-}
-
-.most-popular a {
   color: white;
 }
 
@@ -349,11 +384,6 @@ h1 {
   grid-column: 1/-1;
 }
 
-.latest h5 a {
-  color: rgb(253, 40, 40);
-  font-weight: bold;
-}
-
 .style li {
   list-style: disc;
   margin-left: 1em;
@@ -365,15 +395,6 @@ h1 {
   padding: 1em 0;
 }
 
-.style li a {
-  color: rgb(93, 93, 93);
-  font-size: 0.85em;
-}
-
-.style li a:hover {
-  color: black;
-}
-
 main {
   max-width: 1190px;
   margin: 0 auto;
@@ -381,35 +402,22 @@ main {
 
 .Latest-deals {
   padding: 1em;
-}
-
-.Latest-deals h2 a {
-  text-decoration: none;
-  color: rgba(255, 51, 0, 0.966);
-  font-size: 1.6em;
-  font-weight: bold;
+  margin-bottom: 1em;
+  grid-gap: 1.5em;
 }
 
 .Latest-deals h2 {
   padding: 1em 0;
 }
 
-.Latest-deals a {
-  text-decoration: none;
-}
-
-.Latest-deals h2 a:hover {
-  color: black;
-}
-
-.see-all-deals:hover {
-  color: black;
-}
-
 .see-all-deals {
   color: rgba(255, 51, 0, 0.966);
   margin-top: 1em;
   text-align: right;
+}
+
+.see-all-deals:hover {
+  color: black;
 }
 
 [href="Complete"] {
@@ -422,20 +430,10 @@ main {
   text-decoration: underline red;
 }
 
-.Latest-deals p {
-  color: rgb(85, 85, 85);
-}
-
 .Latest-deals article {
   display: grid;
   grid-gap: 0.5em;
 }
-
-.Latest-deals {
-  margin-bottom: 1em;
-  grid-gap: 1.5em;
-}
-
 
 /* footer */
 footer {
@@ -450,13 +448,8 @@ footer {
   background: rgb(75, 74, 74);
 }
 
-.item1 {
-  grid-gap: 1em;
-}
-
 .item2 {
-  font-size: 0.75em;
-  text-align: center;
+
 }
 
 footer nav {
@@ -477,7 +470,6 @@ footer .bottom {
   padding: 3em 0;
   background: black;
 }
-
 
 /* SMALL SCREEN */
 @media only screen and (max-width: 767px) {
