@@ -8,6 +8,8 @@
 
 > This is an attempt to clone [The Next Web](https://thenextweb.com) as part of completing the curriculum at [microverse](https://microverse.org)
 
+![thenextweb](./thenextweb.png)
+
 ## Built With
 
 - HTML5
